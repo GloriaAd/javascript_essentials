@@ -1,0 +1,33 @@
+h1 {
+
+    color: #00f;
+    font-weight: 600;
+    font-style: italic;  
+}
+
+
+h2 {
+    border: 3px;
+    border-color: blue;
+    padding: 1em;
+    border-style: groove;
+}
+
+ul :hover
+ {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    cursor: all-scroll;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+  }
+
+ul{
+    border: 4px;
+    border-color: cadetblue;
+    border-width: 5mm;
+    padding: 1em;
+    border-style: groove;
+}
